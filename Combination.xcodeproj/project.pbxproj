@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B46FDAD1941BC4E0003AB49 /* StoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B46FDAB1941BC4E0003AB49 /* StoryViewController.m */; };
+		9B46FDAE1941BC4E0003AB49 /* StoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B46FDAC1941BC4E0003AB49 /* StoryViewController.xib */; };
+		9B46FDB11941BEA80003AB49 /* PortalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B46FDB01941BEA80003AB49 /* PortalViewController.m */; };
+		9B4D07D219419A7100165D6A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D07D019419A7100165D6A /* LoginViewController.m */; };
+		9B8459351945B16A0048F484 /* CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8459341945B16A0048F484 /* CollectionCell.m */; };
+		9B8459371945B1830048F484 /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B8459361945B1830048F484 /* CollectionCell.xib */; };
+		9B872DAD194AA63D006A7B8B /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B872DAB194AA63D006A7B8B /* MusicViewController.m */; };
+		9B872DAE194AA63D006A7B8B /* MusicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B872DAC194AA63D006A7B8B /* MusicViewController.xib */; };
+		9B872DB0194AC1C6006A7B8B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B872DAF194AC1C6006A7B8B /* Main_iPad.storyboard */; };
+		9B872DBA194AC77E006A7B8B /* head_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B872DB2194AC77E006A7B8B /* head_1.png */; };
+		9B872DBB194AC77E006A7B8B /* head_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B872DB3194AC77E006A7B8B /* head_2.png */; };
+		9B872DBC194AC77E006A7B8B /* head_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B872DB4194AC77E006A7B8B /* head_3.png */; };
+		9B872DBD194AC77E006A7B8B /* head_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B872DB5194AC77E006A7B8B /* head_4.png */; };
+		9B872DBE194AC77E006A7B8B /* head_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B872DB6194AC77E006A7B8B /* head_5.png */; };
+		9B872DBF194AC77E006A7B8B /* head_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B872DB7194AC77E006A7B8B /* head_6.png */; };
+		9B872DC0194AC77E006A7B8B /* head_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B872DB8194AC77E006A7B8B /* head_7.png */; };
+		9B872DC1194AC77E006A7B8B /* head_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B872DB9194AC77E006A7B8B /* head_8.png */; };
 		9B9DC2EC1932D72300916546 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9DC2EB1932D72300916546 /* Foundation.framework */; };
 		9B9DC2EE1932D72300916546 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9DC2ED1932D72300916546 /* CoreGraphics.framework */; };
 		9B9DC2F01932D72300916546 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9DC2EF1932D72300916546 /* UIKit.framework */; };
@@ -14,8 +31,7 @@
 		9B9DC2F81932D72300916546 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DC2F71932D72300916546 /* main.m */; };
 		9B9DC2FC1932D72300916546 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DC2FB1932D72300916546 /* AppDelegate.m */; };
 		9B9DC2FF1932D72300916546 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9DC2FD1932D72300916546 /* Main_iPhone.storyboard */; };
-		9B9DC3021932D72300916546 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9DC3001932D72300916546 /* Main_iPad.storyboard */; };
-		9B9DC3051932D72300916546 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DC3041932D72300916546 /* MasterViewController.m */; };
+		9B9DC3021932D72300916546 /* Main1_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9DC3001932D72300916546 /* Main1_iPad.storyboard */; };
 		9B9DC3081932D72300916546 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DC3071932D72300916546 /* DetailViewController.m */; };
 		9B9DC30A1932D72300916546 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9DC3091932D72300916546 /* Images.xcassets */; };
 		9B9DC3111932D72300916546 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9DC3101932D72300916546 /* XCTest.framework */; };
@@ -23,6 +39,10 @@
 		9B9DC3131932D72300916546 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9DC2EF1932D72300916546 /* UIKit.framework */; };
 		9B9DC31B1932D72300916546 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B9DC3191932D72300916546 /* InfoPlist.strings */; };
 		9B9DC31D1932D72300916546 /* CombinationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DC31C1932D72300916546 /* CombinationTests.m */; };
+		9BF2805F1946D231009405F7 /* ReuseableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2805E1946D231009405F7 /* ReuseableHeaderView.m */; };
+		9BF280611946D24F009405F7 /* ReuseableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF280601946D24F009405F7 /* ReuseableHeaderView.xib */; };
+		9BF280651946FBC3009405F7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF280641946FBC3009405F7 /* BaseViewController.m */; };
+		9BF2806719470803009405F7 /* PortalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF2806619470803009405F7 /* PortalViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +56,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B46FDAA1941BC4E0003AB49 /* StoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryViewController.h; sourceTree = "<group>"; };
+		9B46FDAB1941BC4E0003AB49 /* StoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryViewController.m; sourceTree = "<group>"; };
+		9B46FDAC1941BC4E0003AB49 /* StoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoryViewController.xib; sourceTree = "<group>"; };
+		9B46FDAF1941BEA80003AB49 /* PortalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortalViewController.h; sourceTree = "<group>"; };
+		9B46FDB01941BEA80003AB49 /* PortalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortalViewController.m; sourceTree = "<group>"; };
+		9B4D07CF19419A7100165D6A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9B4D07D019419A7100165D6A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9B8459331945B16A0048F484 /* CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCell.h; sourceTree = "<group>"; };
+		9B8459341945B16A0048F484 /* CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCell.m; sourceTree = "<group>"; };
+		9B8459361945B1830048F484 /* CollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
+		9B872DAA194AA63D006A7B8B /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		9B872DAB194AA63D006A7B8B /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		9B872DAC194AA63D006A7B8B /* MusicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MusicViewController.xib; sourceTree = "<group>"; };
+		9B872DAF194AC1C6006A7B8B /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		9B872DB2194AC77E006A7B8B /* head_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = head_1.png; path = Images/head_1.png; sourceTree = "<group>"; };
+		9B872DB3194AC77E006A7B8B /* head_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = head_2.png; path = Images/head_2.png; sourceTree = "<group>"; };
+		9B872DB4194AC77E006A7B8B /* head_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = head_3.png; path = Images/head_3.png; sourceTree = "<group>"; };
+		9B872DB5194AC77E006A7B8B /* head_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = head_4.png; path = Images/head_4.png; sourceTree = "<group>"; };
+		9B872DB6194AC77E006A7B8B /* head_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = head_5.png; path = Images/head_5.png; sourceTree = "<group>"; };
+		9B872DB7194AC77E006A7B8B /* head_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = head_6.png; path = Images/head_6.png; sourceTree = "<group>"; };
+		9B872DB8194AC77E006A7B8B /* head_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = head_7.png; path = Images/head_7.png; sourceTree = "<group>"; };
+		9B872DB9194AC77E006A7B8B /* head_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = head_8.png; path = Images/head_8.png; sourceTree = "<group>"; };
 		9B9DC2E81932D72300916546 /* Combination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Combination.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9DC2EB1932D72300916546 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9B9DC2ED1932D72300916546 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,9 +89,7 @@
 		9B9DC2FA1932D72300916546 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B9DC2FB1932D72300916546 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9B9DC2FE1932D72300916546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		9B9DC3011932D72300916546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		9B9DC3031932D72300916546 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		9B9DC3041932D72300916546 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		9B9DC3011932D72300916546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main1_iPad.storyboard; sourceTree = "<group>"; };
 		9B9DC3061932D72300916546 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		9B9DC3071932D72300916546 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		9B9DC3091932D72300916546 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -58,6 +98,12 @@
 		9B9DC3181932D72300916546 /* CombinationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CombinationTests-Info.plist"; sourceTree = "<group>"; };
 		9B9DC31A1932D72300916546 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B9DC31C1932D72300916546 /* CombinationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinationTests.m; sourceTree = "<group>"; };
+		9BF2805D1946D231009405F7 /* ReuseableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReuseableHeaderView.h; sourceTree = "<group>"; };
+		9BF2805E1946D231009405F7 /* ReuseableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReuseableHeaderView.m; sourceTree = "<group>"; };
+		9BF280601946D24F009405F7 /* ReuseableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReuseableHeaderView.xib; sourceTree = "<group>"; };
+		9BF280631946FBC3009405F7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		9BF280641946FBC3009405F7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		9BF2806619470803009405F7 /* PortalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PortalViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +130,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B46FDA71941BBB60003AB49 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B46FDA91941BC000003AB49 /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9B46FDA81941BBED0003AB49 /* Story */ = {
+			isa = PBXGroup;
+			children = (
+				9B46FDAA1941BC4E0003AB49 /* StoryViewController.h */,
+				9B46FDAB1941BC4E0003AB49 /* StoryViewController.m */,
+				9B46FDAC1941BC4E0003AB49 /* StoryViewController.xib */,
+			);
+			name = Story;
+			sourceTree = "<group>";
+		};
+		9B46FDA91941BC000003AB49 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9B872DB2194AC77E006A7B8B /* head_1.png */,
+				9B872DB3194AC77E006A7B8B /* head_2.png */,
+				9B872DB4194AC77E006A7B8B /* head_3.png */,
+				9B872DB5194AC77E006A7B8B /* head_4.png */,
+				9B872DB6194AC77E006A7B8B /* head_5.png */,
+				9B872DB7194AC77E006A7B8B /* head_6.png */,
+				9B872DB8194AC77E006A7B8B /* head_7.png */,
+				9B872DB9194AC77E006A7B8B /* head_8.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		9B8459321945B0D40048F484 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				9B8459331945B16A0048F484 /* CollectionCell.h */,
+				9B8459341945B16A0048F484 /* CollectionCell.m */,
+				9B8459361945B1830048F484 /* CollectionCell.xib */,
+				9BF2805D1946D231009405F7 /* ReuseableHeaderView.h */,
+				9BF2805E1946D231009405F7 /* ReuseableHeaderView.m */,
+				9BF280601946D24F009405F7 /* ReuseableHeaderView.xib */,
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		9B872DB1194AC486006A7B8B /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				9B872DAA194AA63D006A7B8B /* MusicViewController.h */,
+				9B872DAB194AA63D006A7B8B /* MusicViewController.m */,
+				9B872DAC194AA63D006A7B8B /* MusicViewController.xib */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
 		9B9DC2DF1932D72300916546 = {
 			isa = PBXGroup;
 			children = (
@@ -117,16 +219,25 @@
 		9B9DC2F11932D72300916546 /* Combination */ = {
 			isa = PBXGroup;
 			children = (
+				9B872DB1194AC486006A7B8B /* Music */,
+				9BF280621946FB9C009405F7 /* Share */,
+				9B8459321945B0D40048F484 /* CustomViews */,
+				9B46FDA81941BBED0003AB49 /* Story */,
+				9B46FDA71941BBB60003AB49 /* Resources */,
 				9B9DC2FA1932D72300916546 /* AppDelegate.h */,
 				9B9DC2FB1932D72300916546 /* AppDelegate.m */,
 				9B9DC2FD1932D72300916546 /* Main_iPhone.storyboard */,
-				9B9DC3001932D72300916546 /* Main_iPad.storyboard */,
-				9B9DC3031932D72300916546 /* MasterViewController.h */,
-				9B9DC3041932D72300916546 /* MasterViewController.m */,
+				9B9DC3001932D72300916546 /* Main1_iPad.storyboard */,
+				9B872DAF194AC1C6006A7B8B /* Main_iPad.storyboard */,
 				9B9DC3061932D72300916546 /* DetailViewController.h */,
 				9B9DC3071932D72300916546 /* DetailViewController.m */,
 				9B9DC3091932D72300916546 /* Images.xcassets */,
 				9B9DC2F21932D72300916546 /* Supporting Files */,
+				9B4D07CF19419A7100165D6A /* LoginViewController.h */,
+				9B4D07D019419A7100165D6A /* LoginViewController.m */,
+				9B46FDAF1941BEA80003AB49 /* PortalViewController.h */,
+				9B46FDB01941BEA80003AB49 /* PortalViewController.m */,
+				9BF2806619470803009405F7 /* PortalViewController.xib */,
 			);
 			path = Combination;
 			sourceTree = "<group>";
@@ -158,6 +269,15 @@
 				9B9DC3191932D72300916546 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BF280621946FB9C009405F7 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				9BF280631946FBC3009405F7 /* BaseViewController.h */,
+				9BF280641946FBC3009405F7 /* BaseViewController.m */,
+			);
+			name = Share;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,10 +359,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B9DC3021932D72300916546 /* Main_iPad.storyboard in Resources */,
+				9B872DBB194AC77E006A7B8B /* head_2.png in Resources */,
+				9B46FDAE1941BC4E0003AB49 /* StoryViewController.xib in Resources */,
+				9BF2806719470803009405F7 /* PortalViewController.xib in Resources */,
+				9B872DBE194AC77E006A7B8B /* head_5.png in Resources */,
+				9BF280611946D24F009405F7 /* ReuseableHeaderView.xib in Resources */,
+				9B872DBF194AC77E006A7B8B /* head_6.png in Resources */,
+				9B872DB0194AC1C6006A7B8B /* Main_iPad.storyboard in Resources */,
+				9B872DBC194AC77E006A7B8B /* head_3.png in Resources */,
+				9B9DC3021932D72300916546 /* Main1_iPad.storyboard in Resources */,
 				9B9DC30A1932D72300916546 /* Images.xcassets in Resources */,
+				9B872DBD194AC77E006A7B8B /* head_4.png in Resources */,
+				9B872DC0194AC77E006A7B8B /* head_7.png in Resources */,
 				9B9DC2FF1932D72300916546 /* Main_iPhone.storyboard in Resources */,
 				9B9DC2F61932D72300916546 /* InfoPlist.strings in Resources */,
+				9B872DAE194AA63D006A7B8B /* MusicViewController.xib in Resources */,
+				9B8459371945B1830048F484 /* CollectionCell.xib in Resources */,
+				9B872DC1194AC77E006A7B8B /* head_8.png in Resources */,
+				9B872DBA194AC77E006A7B8B /* head_1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +396,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B9DC2FC1932D72300916546 /* AppDelegate.m in Sources */,
-				9B9DC3051932D72300916546 /* MasterViewController.m in Sources */,
+				9BF280651946FBC3009405F7 /* BaseViewController.m in Sources */,
+				9B46FDAD1941BC4E0003AB49 /* StoryViewController.m in Sources */,
 				9B9DC2F81932D72300916546 /* main.m in Sources */,
 				9B9DC3081932D72300916546 /* DetailViewController.m in Sources */,
+				9BF2805F1946D231009405F7 /* ReuseableHeaderView.m in Sources */,
+				9B872DAD194AA63D006A7B8B /* MusicViewController.m in Sources */,
+				9B8459351945B16A0048F484 /* CollectionCell.m in Sources */,
+				9B46FDB11941BEA80003AB49 /* PortalViewController.m in Sources */,
+				9B4D07D219419A7100165D6A /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,12 +443,12 @@
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		9B9DC3001932D72300916546 /* Main_iPad.storyboard */ = {
+		9B9DC3001932D72300916546 /* Main1_iPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				9B9DC3011932D72300916546 /* Base */,
 			);
-			name = Main_iPad.storyboard;
+			name = Main1_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		9B9DC3191932D72300916546 /* InfoPlist.strings */ = {
@@ -489,6 +629,7 @@
 				9B9DC3221932D72300916546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B9DC3231932D72300916546 /* Build configuration list for PBXNativeTarget "CombinationTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +638,7 @@
 				9B9DC3251932D72300916546 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
