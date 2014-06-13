@@ -7,17 +7,36 @@
 //
 
 #import "AppDelegate.h"
+#import "PortalViewController.h"
 
 @implementation AppDelegate
 
+@synthesize rootNavView;
+
+- (void)showRootView {
+    PortalViewController *portalViewController = [[PortalViewController alloc] initWithNibName:NSStringFromClass([PortalViewController class]) bundle:[NSBundle mainBundle]];
+    self.rootNavView = [[UINavigationController alloc] initWithRootViewController:portalViewController];
+    self.rootNavView.navigationBar.hidden = YES;
+    self.window.rootViewController = self.rootNavView;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
-        UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
-        splitViewController.delegate = (id)navigationController.topViewController;
+//        UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
+//        UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
+//        splitViewController.delegate = (id)navigationController.topViewController;
+//        UINavigationController *rootView = (UINavigationController *)self.window.rootViewController;
+//        LoginViewController *tableView = [[LoginViewController alloc] init];
+//        rootView = [[UINavigationController alloc] initWithRootViewController:tableView];
+//        self.window.rootViewController = rootView;
+        
+//        UINavigationController *navRootView = (UINavigationController *)self.window.rootViewController;
+        
+        [self showRootView];
+        
+        
     }
     return YES;
 }
