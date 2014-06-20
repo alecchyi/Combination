@@ -11,6 +11,8 @@
 		9B46FDAE1941BC4E0003AB49 /* StoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B46FDAC1941BC4E0003AB49 /* StoryViewController.xib */; };
 		9B46FDB11941BEA80003AB49 /* PortalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B46FDB01941BEA80003AB49 /* PortalViewController.m */; };
 		9B4D07D219419A7100165D6A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D07D019419A7100165D6A /* LoginViewController.m */; };
+		9B54C03519501B0A004D8FD1 /* CategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B54C03419501B0A004D8FD1 /* CategoryView.m */; };
+		9B54C03719503A4D004D8FD1 /* down_dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B54C03619503A4D004D8FD1 /* down_dark.png */; };
 		9B8459351945B16A0048F484 /* CollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8459341945B16A0048F484 /* CollectionCell.m */; };
 		9B8459371945B1830048F484 /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B8459361945B1830048F484 /* CollectionCell.xib */; };
 		9B872DAD194AA63D006A7B8B /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B872DAB194AA63D006A7B8B /* MusicViewController.m */; };
@@ -24,6 +26,13 @@
 		9B872DBF194AC77E006A7B8B /* head_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B872DB7194AC77E006A7B8B /* head_6.png */; };
 		9B872DC0194AC77E006A7B8B /* head_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B872DB8194AC77E006A7B8B /* head_7.png */; };
 		9B872DC1194AC77E006A7B8B /* head_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B872DB9194AC77E006A7B8B /* head_8.png */; };
+		9B872DC7194AE686006A7B8B /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B872DC6194AE686006A7B8B /* MenuViewController.m */; };
+		9B872DCD194AEADB006A7B8B /* DrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B872DCC194AEADB006A7B8B /* DrawerViewController.m */; };
+		9B872DD2194AEC54006A7B8B /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B872DCF194AEC54006A7B8B /* MMDrawerController.m */; };
+		9B872DD3194AEC54006A7B8B /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B872DD1194AEC54006A7B8B /* UIViewController+MMDrawerController.m */; };
+		9B872DD6194AF18A006A7B8B /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B872DD5194AF18A006A7B8B /* MMDrawerBarButtonItem.m */; };
+		9B872DD8194AF450006A7B8B /* DrawerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B872DD7194AF450006A7B8B /* DrawerViewController.xib */; };
+		9B872DDB194AF87B006A7B8B /* UIRoundedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B872DDA194AF87B006A7B8B /* UIRoundedImageView.m */; };
 		9B9DC2EC1932D72300916546 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9DC2EB1932D72300916546 /* Foundation.framework */; };
 		9B9DC2EE1932D72300916546 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9DC2ED1932D72300916546 /* CoreGraphics.framework */; };
 		9B9DC2F01932D72300916546 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9DC2EF1932D72300916546 /* UIKit.framework */; };
@@ -39,6 +48,10 @@
 		9B9DC3131932D72300916546 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9DC2EF1932D72300916546 /* UIKit.framework */; };
 		9B9DC31B1932D72300916546 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B9DC3191932D72300916546 /* InfoPlist.strings */; };
 		9B9DC31D1932D72300916546 /* CombinationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DC31C1932D72300916546 /* CombinationTests.m */; };
+		9BC36D3D1952D2D0005F702D /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC36D3C1952D2D0005F702D /* ReflectionView.m */; };
+		9BC36D3F1952E3BB005F702D /* player_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC36D3E1952E3BB005F702D /* player_btn.png */; };
+		9BC36D431952EA89005F702D /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC36D411952EA89005F702D /* RecordViewController.m */; };
+		9BC36D441952EA89005F702D /* RecordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BC36D421952EA89005F702D /* RecordViewController.xib */; };
 		9BF2805F1946D231009405F7 /* ReuseableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF2805E1946D231009405F7 /* ReuseableHeaderView.m */; };
 		9BF280611946D24F009405F7 /* ReuseableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF280601946D24F009405F7 /* ReuseableHeaderView.xib */; };
 		9BF280651946FBC3009405F7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BF280641946FBC3009405F7 /* BaseViewController.m */; };
@@ -63,6 +76,9 @@
 		9B46FDB01941BEA80003AB49 /* PortalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortalViewController.m; sourceTree = "<group>"; };
 		9B4D07CF19419A7100165D6A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		9B4D07D019419A7100165D6A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9B54C03319501B0A004D8FD1 /* CategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryView.h; sourceTree = "<group>"; };
+		9B54C03419501B0A004D8FD1 /* CategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryView.m; sourceTree = "<group>"; };
+		9B54C03619503A4D004D8FD1 /* down_dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_dark.png; sourceTree = "<group>"; };
 		9B8459331945B16A0048F484 /* CollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCell.h; sourceTree = "<group>"; };
 		9B8459341945B16A0048F484 /* CollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCell.m; sourceTree = "<group>"; };
 		9B8459361945B1830048F484 /* CollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
@@ -78,6 +94,19 @@
 		9B872DB7194AC77E006A7B8B /* head_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = head_6.png; path = Images/head_6.png; sourceTree = "<group>"; };
 		9B872DB8194AC77E006A7B8B /* head_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = head_7.png; path = Images/head_7.png; sourceTree = "<group>"; };
 		9B872DB9194AC77E006A7B8B /* head_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = head_8.png; path = Images/head_8.png; sourceTree = "<group>"; };
+		9B872DC5194AE686006A7B8B /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		9B872DC6194AE686006A7B8B /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		9B872DCB194AEADB006A7B8B /* DrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawerViewController.h; sourceTree = "<group>"; };
+		9B872DCC194AEADB006A7B8B /* DrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawerViewController.m; sourceTree = "<group>"; };
+		9B872DCE194AEC54006A7B8B /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		9B872DCF194AEC54006A7B8B /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		9B872DD0194AEC54006A7B8B /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		9B872DD1194AEC54006A7B8B /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		9B872DD4194AF18A006A7B8B /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		9B872DD5194AF18A006A7B8B /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		9B872DD7194AF450006A7B8B /* DrawerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawerViewController.xib; sourceTree = "<group>"; };
+		9B872DD9194AF87B006A7B8B /* UIRoundedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIRoundedImageView.h; sourceTree = "<group>"; };
+		9B872DDA194AF87B006A7B8B /* UIRoundedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIRoundedImageView.m; sourceTree = "<group>"; };
 		9B9DC2E81932D72300916546 /* Combination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Combination.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9DC2EB1932D72300916546 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9B9DC2ED1932D72300916546 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -98,6 +127,12 @@
 		9B9DC3181932D72300916546 /* CombinationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CombinationTests-Info.plist"; sourceTree = "<group>"; };
 		9B9DC31A1932D72300916546 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B9DC31C1932D72300916546 /* CombinationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CombinationTests.m; sourceTree = "<group>"; };
+		9BC36D3B1952D2D0005F702D /* ReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionView.h; sourceTree = "<group>"; };
+		9BC36D3C1952D2D0005F702D /* ReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionView.m; sourceTree = "<group>"; };
+		9BC36D3E1952E3BB005F702D /* player_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = player_btn.png; path = Images/player_btn.png; sourceTree = "<group>"; };
+		9BC36D401952EA89005F702D /* RecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordViewController.h; sourceTree = "<group>"; };
+		9BC36D411952EA89005F702D /* RecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordViewController.m; sourceTree = "<group>"; };
+		9BC36D421952EA89005F702D /* RecordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecordViewController.xib; sourceTree = "<group>"; };
 		9BF2805D1946D231009405F7 /* ReuseableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReuseableHeaderView.h; sourceTree = "<group>"; };
 		9BF2805E1946D231009405F7 /* ReuseableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReuseableHeaderView.m; sourceTree = "<group>"; };
 		9BF280601946D24F009405F7 /* ReuseableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReuseableHeaderView.xib; sourceTree = "<group>"; };
@@ -144,6 +179,14 @@
 				9B46FDAA1941BC4E0003AB49 /* StoryViewController.h */,
 				9B46FDAB1941BC4E0003AB49 /* StoryViewController.m */,
 				9B46FDAC1941BC4E0003AB49 /* StoryViewController.xib */,
+				9B872DC5194AE686006A7B8B /* MenuViewController.h */,
+				9B872DC6194AE686006A7B8B /* MenuViewController.m */,
+				9B872DCB194AEADB006A7B8B /* DrawerViewController.h */,
+				9B872DCC194AEADB006A7B8B /* DrawerViewController.m */,
+				9B872DD7194AF450006A7B8B /* DrawerViewController.xib */,
+				9BC36D401952EA89005F702D /* RecordViewController.h */,
+				9BC36D411952EA89005F702D /* RecordViewController.m */,
+				9BC36D421952EA89005F702D /* RecordViewController.xib */,
 			);
 			name = Story;
 			sourceTree = "<group>";
@@ -151,6 +194,8 @@
 		9B46FDA91941BC000003AB49 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				9BC36D3E1952E3BB005F702D /* player_btn.png */,
+				9B54C03619503A4D004D8FD1 /* down_dark.png */,
 				9B872DB2194AC77E006A7B8B /* head_1.png */,
 				9B872DB3194AC77E006A7B8B /* head_2.png */,
 				9B872DB4194AC77E006A7B8B /* head_3.png */,
@@ -172,6 +217,10 @@
 				9BF2805D1946D231009405F7 /* ReuseableHeaderView.h */,
 				9BF2805E1946D231009405F7 /* ReuseableHeaderView.m */,
 				9BF280601946D24F009405F7 /* ReuseableHeaderView.xib */,
+				9B872DD9194AF87B006A7B8B /* UIRoundedImageView.h */,
+				9B872DDA194AF87B006A7B8B /* UIRoundedImageView.m */,
+				9B54C03319501B0A004D8FD1 /* CategoryView.h */,
+				9B54C03419501B0A004D8FD1 /* CategoryView.m */,
 			);
 			name = CustomViews;
 			sourceTree = "<group>";
@@ -274,6 +323,14 @@
 		9BF280621946FB9C009405F7 /* Share */ = {
 			isa = PBXGroup;
 			children = (
+				9BC36D3B1952D2D0005F702D /* ReflectionView.h */,
+				9BC36D3C1952D2D0005F702D /* ReflectionView.m */,
+				9B872DD4194AF18A006A7B8B /* MMDrawerBarButtonItem.h */,
+				9B872DD5194AF18A006A7B8B /* MMDrawerBarButtonItem.m */,
+				9B872DCE194AEC54006A7B8B /* MMDrawerController.h */,
+				9B872DCF194AEC54006A7B8B /* MMDrawerController.m */,
+				9B872DD0194AEC54006A7B8B /* UIViewController+MMDrawerController.h */,
+				9B872DD1194AEC54006A7B8B /* UIViewController+MMDrawerController.m */,
 				9BF280631946FBC3009405F7 /* BaseViewController.h */,
 				9BF280641946FBC3009405F7 /* BaseViewController.m */,
 			);
@@ -364,6 +421,7 @@
 				9BF2806719470803009405F7 /* PortalViewController.xib in Resources */,
 				9B872DBE194AC77E006A7B8B /* head_5.png in Resources */,
 				9BF280611946D24F009405F7 /* ReuseableHeaderView.xib in Resources */,
+				9B54C03719503A4D004D8FD1 /* down_dark.png in Resources */,
 				9B872DBF194AC77E006A7B8B /* head_6.png in Resources */,
 				9B872DB0194AC1C6006A7B8B /* Main_iPad.storyboard in Resources */,
 				9B872DBC194AC77E006A7B8B /* head_3.png in Resources */,
@@ -372,11 +430,14 @@
 				9B872DBD194AC77E006A7B8B /* head_4.png in Resources */,
 				9B872DC0194AC77E006A7B8B /* head_7.png in Resources */,
 				9B9DC2FF1932D72300916546 /* Main_iPhone.storyboard in Resources */,
+				9BC36D3F1952E3BB005F702D /* player_btn.png in Resources */,
 				9B9DC2F61932D72300916546 /* InfoPlist.strings in Resources */,
 				9B872DAE194AA63D006A7B8B /* MusicViewController.xib in Resources */,
 				9B8459371945B1830048F484 /* CollectionCell.xib in Resources */,
+				9B872DD8194AF450006A7B8B /* DrawerViewController.xib in Resources */,
 				9B872DC1194AC77E006A7B8B /* head_8.png in Resources */,
 				9B872DBA194AC77E006A7B8B /* head_1.png in Resources */,
+				9BC36D441952EA89005F702D /* RecordViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,11 +458,20 @@
 			files = (
 				9B9DC2FC1932D72300916546 /* AppDelegate.m in Sources */,
 				9BF280651946FBC3009405F7 /* BaseViewController.m in Sources */,
+				9B872DCD194AEADB006A7B8B /* DrawerViewController.m in Sources */,
 				9B46FDAD1941BC4E0003AB49 /* StoryViewController.m in Sources */,
 				9B9DC2F81932D72300916546 /* main.m in Sources */,
+				9B872DD2194AEC54006A7B8B /* MMDrawerController.m in Sources */,
 				9B9DC3081932D72300916546 /* DetailViewController.m in Sources */,
+				9B872DD6194AF18A006A7B8B /* MMDrawerBarButtonItem.m in Sources */,
+				9BC36D431952EA89005F702D /* RecordViewController.m in Sources */,
 				9BF2805F1946D231009405F7 /* ReuseableHeaderView.m in Sources */,
+				9B54C03519501B0A004D8FD1 /* CategoryView.m in Sources */,
 				9B872DAD194AA63D006A7B8B /* MusicViewController.m in Sources */,
+				9BC36D3D1952D2D0005F702D /* ReflectionView.m in Sources */,
+				9B872DD3194AEC54006A7B8B /* UIViewController+MMDrawerController.m in Sources */,
+				9B872DC7194AE686006A7B8B /* MenuViewController.m in Sources */,
+				9B872DDB194AF87B006A7B8B /* UIRoundedImageView.m in Sources */,
 				9B8459351945B16A0048F484 /* CollectionCell.m in Sources */,
 				9B46FDB11941BEA80003AB49 /* PortalViewController.m in Sources */,
 				9B4D07D219419A7100165D6A /* LoginViewController.m in Sources */,
