@@ -6,6 +6,12 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StoryViewController">
             <connections>
+                <outlet property="categoryView" destination="qvj-Og-P2w" id="dej-Fz-y77"/>
+                <outlet property="praiseImgView" destination="5or-E8-yaS" id="gSw-tc-9mY"/>
+                <outlet property="shareImgView" destination="XmO-Cq-kIT" id="HB2-ZU-FfN"/>
+                <outlet property="speakImgView" destination="yAn-AG-tCe" id="Y5i-dG-1UF"/>
+                <outlet property="storyContentView" destination="giA-iR-f0M" id="DN6-Hy-46P"/>
+                <outlet property="userImgView" destination="Ixu-vS-B1u" id="QIm-au-AHi"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -13,8 +19,58 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qvj-Og-P2w">
+                    <rect key="frame" x="0.0" y="44" width="1024" height="90"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.51523956113620928" green="1" blue="0.44627256880701172" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="giA-iR-f0M">
+                    <rect key="frame" x="0.0" y="134" width="1024" height="410"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nkj-nX-G4B">
+                    <rect key="frame" x="0.0" y="550" width="1024" height="140"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head_7.png" translatesAutoresizingMaskIntoConstraints="NO" id="5or-E8-yaS" customClass="UIRoundedImageView">
+                            <rect key="frame" x="316" y="7" width="60" height="60"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ixu-vS-B1u" customClass="UIRoundedImageView">
+                            <rect key="frame" x="649" y="7" width="60" height="60"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head_8.png" translatesAutoresizingMaskIntoConstraints="NO" id="XmO-Cq-kIT" customClass="UIRoundedImageView">
+                            <rect key="frame" x="539" y="72" width="60" height="60"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head_5.png" translatesAutoresizingMaskIntoConstraints="NO" id="yAn-AG-tCe" customClass="UIRoundedImageView">
+                            <rect key="frame" x="428" y="72" width="60" height="60"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s7M-rM-SWl">
+                    <rect key="frame" x="492" y="700" width="40" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="head_3.png" backgroundImage="head_3.png"/>
+                    <connections>
+                        <action selector="clickRecordBtn:" destination="-1" eventType="touchUpInside" id="SgP-TR-CZK"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
         </view>
     </objects>
+    <resources>
+        <image name="head_1.png" width="234" height="234"/>
+        <image name="head_3.png" width="234" height="234"/>
+        <image name="head_5.png" width="234" height="234"/>
+        <image name="head_7.png" width="234" height="234"/>
+        <image name="head_8.png" width="234" height="234"/>
+    </resources>
 </document>

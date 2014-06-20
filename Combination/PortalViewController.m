@@ -12,6 +12,8 @@ NSString *const MJCollectionViewCellIdentifier = @"CollectionCell";
 #import "CollectionCell.h"
 #import "ReuseableHeaderView.h"
 #import "StoryViewController.h"
+#import "DrawerViewController.h"
+#import "MenuViewController.h"
 
 @interface PortalViewController ()
 
@@ -91,7 +93,10 @@ NSString *const MJCollectionViewCellIdentifier = @"CollectionCell";
     if (indexPath.row == 1) {
         StoryViewController *storyViewController = [[StoryViewController alloc] init];
         UINavigationController *mainNavController = [[UINavigationController alloc] initWithRootViewController:storyViewController];
-        self.view.window.rootViewController = mainNavController;
+        DrawerViewController *drawerViewController = [[DrawerViewController alloc] init];
+        MenuViewController *rootViewController = [[MenuViewController alloc] initWithCenterViewController:mainNavController rightDrawerViewController:drawerViewController];
+        [rootViewController setMaximumRightDrawerWidth:200.0];
+        self.view.window.rootViewController = rootViewController;
     }
 }
 

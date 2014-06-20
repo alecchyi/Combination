@@ -8,7 +8,20 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseViewController.h"
+#import "UIRoundedImageView.h"
+#import "CategoryView.h"
 
-@interface StoryViewController : BaseViewController
+@interface StoryViewController : BaseViewController<CategoryViewChooseDataDataSource,CategoryViewChooseDataDelegate>
+
+
+@property (weak, nonatomic) IBOutlet CategoryView *categoryView;
+@property (weak, nonatomic) IBOutlet UIView *storyContentView;
+
+@property (weak, nonatomic) IBOutlet UIRoundedImageView *praiseImgView;
+@property (weak, nonatomic) IBOutlet UIRoundedImageView *userImgView;
+@property (weak, nonatomic) IBOutlet UIRoundedImageView *shareImgView;
+@property (weak, nonatomic) IBOutlet UIRoundedImageView *speakImgView;
+
+- (IBAction)clickRecordBtn:(id)sender;
 
 @end
