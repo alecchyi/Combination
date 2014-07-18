@@ -8,6 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface DataService : NSObject
+@interface DataService : NSObject{
+    NSMutableArray *menuList;
+}
+
+@property (nonatomic,strong) NSMutableArray *menuList;
+
++(DataService *)shareDataService;
 
 @end
