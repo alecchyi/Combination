@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface RecordViewController : UIViewController
+@interface RecordViewController : BaseViewController
+@property (weak, nonatomic) IBOutlet UIView *freeModelView;
+
+@property (weak, nonatomic) IBOutlet UISegmentedControl *modelSelectSeg;
+@property (weak, nonatomic) IBOutlet UIView *buttonBar;
+@property (weak, nonatomic) IBOutlet UIView *followModelView;
+
+- (IBAction)clickModelSelect:(id)sender;
 
 @end

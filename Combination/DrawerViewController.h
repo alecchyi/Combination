@@ -10,4 +10,9 @@
 
 @interface DrawerViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITableView *drawerTable;
+@property (weak, nonatomic) IBOutlet UIImageView *imgHeader;
+@property (weak, nonatomic) IBOutlet UILabel *lblLoginInfo;
+
+
 @end

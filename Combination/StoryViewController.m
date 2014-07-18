@@ -44,6 +44,14 @@
     [self setupRightMenuButton];
     [self setupCategoryView];
     [self setupStoryContentView];
+    [self setupOperationView];
+}
+
+- (void)setupOperationView {
+    UITapGestureRecognizer *speakTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(clickSpeakBtn:)];
+    self.speakImgView.userInteractionEnabled = YES;
+    [self.speakImgView addGestureRecognizer:speakTap];
+    
 }
 
 - (void)setupStoryContentView {
@@ -69,16 +77,17 @@
     lblTime.text = @"00:44/14:30";
     lblTime.font = [UIFont systemFontOfSize:24.0f];
     [storyView addSubview:lblTime];
-    frame.origin.x = 240;
-    frame.origin.y = 80;
+    frame.origin.x = 450;
+    frame.origin.y = 230;
     frame.size.width = 50;
     frame.size.height = 50;
     UIButton *btnPlay = [[UIButton alloc] initWithFrame:frame];
-    [btnPlay setBackgroundImage:[UIImage imageNamed:@"player_btn.png"] forState:UIControlStateNormal];
+    [btnPlay setBackgroundImage:[UIImage imageNamed:@"pause_btn.png"] forState:UIControlStateNormal];
     [storyView addSubview:btnPlay];
     [self.storyContentView addSubview:storyView];
     
     UITextView *contentView = [[UITextView alloc] initWithFrame:CGRectMake(600, 0, 400, 410)];
+    contentView.editable = NO;
     [contentView setBackgroundColor:[UIColor lightGrayColor]];
     contentView.text = @"故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本";
     contentView.font = [UIFont systemFontOfSize:16.0f];
@@ -131,9 +140,13 @@
     
 }
 
-- (IBAction)clickRecordBtn:(id)sender {
+- (void)clickSpeakBtn:(id)sender {
     RecordViewController *recordViewController = [[RecordViewController alloc] initWithNibName:NSStringFromClass([RecordViewController class]) bundle:nil];
     [self.navigationController pushViewController:recordViewController animated:YES];
+    
+}
+
+- (IBAction)clickRecordBtn:(id)sender {
     
 }
 

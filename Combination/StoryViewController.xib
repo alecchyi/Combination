@@ -34,32 +34,29 @@
                     <rect key="frame" x="0.0" y="550" width="1024" height="140"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head_7.png" translatesAutoresizingMaskIntoConstraints="NO" id="5or-E8-yaS" customClass="UIRoundedImageView">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="like_btn.png" translatesAutoresizingMaskIntoConstraints="NO" id="5or-E8-yaS" customClass="UIRoundedImageView">
                             <rect key="frame" x="316" y="7" width="60" height="60"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head_1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ixu-vS-B1u" customClass="UIRoundedImageView">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="user_btn.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ixu-vS-B1u" customClass="UIRoundedImageView">
                             <rect key="frame" x="649" y="7" width="60" height="60"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head_8.png" translatesAutoresizingMaskIntoConstraints="NO" id="XmO-Cq-kIT" customClass="UIRoundedImageView">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="share_btn.png" translatesAutoresizingMaskIntoConstraints="NO" id="XmO-Cq-kIT" customClass="UIRoundedImageView">
                             <rect key="frame" x="539" y="72" width="60" height="60"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head_5.png" translatesAutoresizingMaskIntoConstraints="NO" id="yAn-AG-tCe" customClass="UIRoundedImageView">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="record_btn.png" translatesAutoresizingMaskIntoConstraints="NO" id="yAn-AG-tCe" customClass="UIRoundedImageView">
                             <rect key="frame" x="428" y="72" width="60" height="60"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         </imageView>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" red="0.0" green="0.85490196080000003" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s7M-rM-SWl">
                     <rect key="frame" x="492" y="700" width="40" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" image="head_3.png" backgroundImage="head_3.png"/>
-                    <connections>
-                        <action selector="clickRecordBtn:" destination="-1" eventType="touchUpInside" id="SgP-TR-CZK"/>
-                    </connections>
+                    <state key="normal" image="help_btn.png" backgroundImage="help_btn.png"/>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -67,10 +64,10 @@
         </view>
     </objects>
     <resources>
-        <image name="head_1.png" width="234" height="234"/>
-        <image name="head_3.png" width="234" height="234"/>
-        <image name="head_5.png" width="234" height="234"/>
-        <image name="head_7.png" width="234" height="234"/>
-        <image name="head_8.png" width="234" height="234"/>
+        <image name="help_btn.png" width="100" height="100"/>
+        <image name="like_btn.png" width="100" height="100"/>
+        <image name="record_btn.png" width="100" height="100"/>
+        <image name="share_btn.png" width="100" height="100"/>
+        <image name="user_btn.png" width="100" height="100"/>
     </resources>
 </document>
