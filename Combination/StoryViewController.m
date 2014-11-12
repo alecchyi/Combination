@@ -13,6 +13,7 @@
 #import "UIViewController+MMDrawerController.h"
 #import "ReflectionView.h"
 #import "RecordViewController.h"
+#import "DataService.h"
 
 @interface StoryViewController (){
     NSMutableArray *categoriesArr;
@@ -41,10 +42,19 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.navigationItem.title = @"Story";
+    [self initStoryData];
     [self setupRightMenuButton];
     [self setupCategoryView];
     [self setupStoryContentView];
     [self setupOperationView];
+}
+
+- (void)initStoryData {
+    NSString *plist = [Utils storyPlistPath];
+    NSLog(@"%@",plist);
+    plist = [[NSBundle mainBundle] pathForResource:@"stories" ofType:@"plist"];
+    NSMutableDictionary *data = [[NSMutableDictionary alloc] initWithContentsOfFile:plist];
+    NSLog(@"%@",[data objectForKey:@"stories"]);
 }
 
 - (void)setupOperationView {
