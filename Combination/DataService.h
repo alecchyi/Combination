@@ -13,6 +13,7 @@
 }
 
 @property (nonatomic,strong) NSMutableArray *menuList;
+@property (nonatomic,strong) NSMutableArray *stories;
 
 +(DataService *)shareDataService;
 

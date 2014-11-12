@@ -15,6 +15,7 @@
 -(id)init{
     if(self = [super init]){
         self.menuList = [NSMutableArray array];
+        self.stories = [NSMutableArray array];
     }
     return self;
 }
