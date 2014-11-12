@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7017D6521A13A8FD00B8AD0C /* stories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7017D6511A13A8FD00B8AD0C /* stories.plist */; };
+		7017D6541A13B33000B8AD0C /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7017D6531A13B33000B8AD0C /* Utils.m */; };
 		9B16CA8D1975092C00E363AC /* luyin.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B16CA8C1975092C00E363AC /* luyin.png */; };
 		9B16CA911975164300E363AC /* LocalStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B16CA8F1975164300E363AC /* LocalStoreViewController.m */; };
 		9B16CA921975164300E363AC /* LocalStoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B16CA901975164300E363AC /* LocalStoreViewController.xib */; };
@@ -47,7 +49,6 @@
 		9B9DC2F81932D72300916546 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DC2F71932D72300916546 /* main.m */; };
 		9B9DC2FC1932D72300916546 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DC2FB1932D72300916546 /* AppDelegate.m */; };
 		9B9DC2FF1932D72300916546 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9DC2FD1932D72300916546 /* Main_iPhone.storyboard */; };
-		9B9DC3021932D72300916546 /* Main1_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B9DC3001932D72300916546 /* Main1_iPad.storyboard */; };
 		9B9DC3081932D72300916546 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DC3071932D72300916546 /* DetailViewController.m */; };
 		9B9DC30A1932D72300916546 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9DC3091932D72300916546 /* Images.xcassets */; };
 		9B9DC3111932D72300916546 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9DC3101932D72300916546 /* XCTest.framework */; };
@@ -55,16 +56,13 @@
 		9B9DC3131932D72300916546 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B9DC2EF1932D72300916546 /* UIKit.framework */; };
 		9B9DC31B1932D72300916546 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B9DC3191932D72300916546 /* InfoPlist.strings */; };
 		9B9DC31D1932D72300916546 /* CombinationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DC31C1932D72300916546 /* CombinationTests.m */; };
-		9BA1D19F196691FC004A3F57 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA1D19E196691FC004A3F57 /* TencentOpenAPI.framework */; };
 		9BA1D1A119669243004A3F57 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA1D1A019669243004A3F57 /* libiconv.dylib */; };
 		9BA1D1A319669257004A3F57 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA1D1A219669257004A3F57 /* SystemConfiguration.framework */; };
 		9BA1D1A519669277004A3F57 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA1D1A419669277004A3F57 /* libsqlite3.dylib */; };
 		9BA1D1A719669280004A3F57 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA1D1A619669280004A3F57 /* CoreTelephony.framework */; };
-		9BA1D1A9196692FF004A3F57 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BA1D1A8196692FF004A3F57 /* TencentOpenApi_IOS_Bundle.bundle */; };
 		9BA1D1AB1966AA87004A3F57 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA1D1AA1966AA87004A3F57 /* libstdc++.dylib */; };
 		9BA1D1AD1966AA99004A3F57 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA1D1AC1966AA99004A3F57 /* libz.dylib */; };
 		9BB70CA9195ACE4D00BF4A84 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB70CA8195ACE4D00BF4A84 /* Security.framework */; };
-		9BB70CAB195AD07D00BF4A84 /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BB70CAA195AD07D00BF4A84 /* libWeiboSDK.a */; };
 		9BC36D3D1952D2D0005F702D /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC36D3C1952D2D0005F702D /* ReflectionView.m */; };
 		9BC36D3F1952E3BB005F702D /* player_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BC36D3E1952E3BB005F702D /* player_btn.png */; };
 		9BC36D431952EA89005F702D /* RecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC36D411952EA89005F702D /* RecordViewController.m */; };
@@ -99,6 +97,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7017D6511A13A8FD00B8AD0C /* stories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = stories.plist; sourceTree = "<group>"; };
+		7017D6531A13B33000B8AD0C /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		7017D6551A13B3D200B8AD0C /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		7017D6561A13B59700B8AD0C /* Consts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Consts.h; sourceTree = "<group>"; };
 		9B16CA8C1975092C00E363AC /* luyin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = luyin.png; sourceTree = "<group>"; };
 		9B16CA8E1975164300E363AC /* LocalStoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalStoreViewController.h; sourceTree = "<group>"; };
 		9B16CA8F1975164300E363AC /* LocalStoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalStoreViewController.m; sourceTree = "<group>"; };
@@ -157,7 +159,6 @@
 		9B9DC2FA1932D72300916546 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B9DC2FB1932D72300916546 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9B9DC2FE1932D72300916546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		9B9DC3011932D72300916546 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main1_iPad.storyboard; sourceTree = "<group>"; };
 		9B9DC3061932D72300916546 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		9B9DC3071932D72300916546 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		9B9DC3091932D72300916546 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -171,7 +172,6 @@
 		9BA1D1A219669257004A3F57 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		9BA1D1A419669277004A3F57 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		9BA1D1A619669280004A3F57 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		9BA1D1A8196692FF004A3F57 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = ../TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
 		9BA1D1AA1966AA87004A3F57 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
 		9BA1D1AC1966AA99004A3F57 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		9BB70CA8195ACE4D00BF4A84 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -226,8 +226,6 @@
 				9B9DC2EE1932D72300916546 /* CoreGraphics.framework in Frameworks */,
 				9BA1D1A319669257004A3F57 /* SystemConfiguration.framework in Frameworks */,
 				9BA1D1A119669243004A3F57 /* libiconv.dylib in Frameworks */,
-				9BB70CAB195AD07D00BF4A84 /* libWeiboSDK.a in Frameworks */,
-				9BA1D19F196691FC004A3F57 /* TencentOpenAPI.framework in Frameworks */,
 				9BB70CA9195ACE4D00BF4A84 /* Security.framework in Frameworks */,
 				9B9DC2F01932D72300916546 /* UIKit.framework in Frameworks */,
 				9B9DC2EC1932D72300916546 /* Foundation.framework in Frameworks */,
@@ -251,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				9B46FDA91941BC000003AB49 /* images */,
+				7017D6511A13A8FD00B8AD0C /* stories.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -370,7 +369,6 @@
 			isa = PBXGroup;
 			children = (
 				9BF280621946FB9C009405F7 /* Share */,
-				9BA1D1A8196692FF004A3F57 /* TencentOpenApi_IOS_Bundle.bundle */,
 				9B872DB1194AC486006A7B8B /* Music */,
 				9B8459321945B0D40048F484 /* CustomViews */,
 				9B46FDA81941BBED0003AB49 /* Story */,
@@ -378,7 +376,6 @@
 				9B9DC2FA1932D72300916546 /* AppDelegate.h */,
 				9B9DC2FB1932D72300916546 /* AppDelegate.m */,
 				9B9DC2FD1932D72300916546 /* Main_iPhone.storyboard */,
-				9B9DC3001932D72300916546 /* Main1_iPad.storyboard */,
 				9B872DAF194AC1C6006A7B8B /* Main_iPad.storyboard */,
 				9B9DC3061932D72300916546 /* DetailViewController.h */,
 				9B9DC3071932D72300916546 /* DetailViewController.m */,
@@ -439,6 +436,9 @@
 				9BF280641946FBC3009405F7 /* BaseViewController.m */,
 				9B16CA9319752A2600E363AC /* DataService.h */,
 				9B16CA9419752A2600E363AC /* DataService.m */,
+				7017D6531A13B33000B8AD0C /* Utils.m */,
+				7017D6551A13B3D200B8AD0C /* Utils.h */,
+				7017D6561A13B59700B8AD0C /* Consts.h */,
 			);
 			name = Share;
 			sourceTree = "<group>";
@@ -557,7 +557,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA1D1A9196692FF004A3F57 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				9B16CA8D1975092C00E363AC /* luyin.png in Resources */,
 				9B872DBB194AC77E006A7B8B /* head_2.png in Resources */,
 				9B46FDAE1941BC4E0003AB49 /* StoryViewController.xib in Resources */,
@@ -571,7 +570,6 @@
 				9B872DBF194AC77E006A7B8B /* head_6.png in Resources */,
 				9B872DB0194AC1C6006A7B8B /* Main_iPad.storyboard in Resources */,
 				9B872DBC194AC77E006A7B8B /* head_3.png in Resources */,
-				9B9DC3021932D72300916546 /* Main1_iPad.storyboard in Resources */,
 				9B9DC30A1932D72300916546 /* Images.xcassets in Resources */,
 				9B872DBD194AC77E006A7B8B /* head_4.png in Resources */,
 				9B872DC0194AC77E006A7B8B /* head_7.png in Resources */,
@@ -579,6 +577,7 @@
 				9B16CA921975164300E363AC /* LocalStoreViewController.xib in Resources */,
 				9BC36D3F1952E3BB005F702D /* player_btn.png in Resources */,
 				9B4E88951954024F008830EB /* pause_btn.png in Resources */,
+				7017D6521A13A8FD00B8AD0C /* stories.plist in Resources */,
 				9BED3D9819580E0800314AE9 /* user_btn.png in Resources */,
 				9B9DC2F61932D72300916546 /* InfoPlist.strings in Resources */,
 				9B872DAE194AA63D006A7B8B /* MusicViewController.xib in Resources */,
@@ -625,6 +624,7 @@
 				9BF7274F197914B600621BF5 /* AFHTTPSessionManager.m in Sources */,
 				9B54C03519501B0A004D8FD1 /* CategoryView.m in Sources */,
 				9BF72750197914B600621BF5 /* AFNetworkReachabilityManager.m in Sources */,
+				7017D6541A13B33000B8AD0C /* Utils.m in Sources */,
 				9B872DAD194AA63D006A7B8B /* MusicViewController.m in Sources */,
 				9BF7274E197914B600621BF5 /* AFHTTPRequestOperationManager.m in Sources */,
 				9BF72753197914B600621BF5 /* AFURLRequestSerialization.m in Sources */,
@@ -673,14 +673,6 @@
 				9B9DC2FE1932D72300916546 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		9B9DC3001932D72300916546 /* Main1_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B9DC3011932D72300916546 /* Base */,
-			);
-			name = Main1_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		9B9DC3191932D72300916546 /* InfoPlist.strings */ = {
