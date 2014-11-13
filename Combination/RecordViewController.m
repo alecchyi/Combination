@@ -14,6 +14,7 @@
 @end
 
 @implementation RecordViewController
+@synthesize story;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -39,6 +40,16 @@
     [self.modelSelectSeg addTarget:self action:@selector(clickModelSelect:) forControlEvents:UIControlEventValueChanged];
     UIBarButtonItem *rightBtnItem = [[UIBarButtonItem alloc] initWithTitle:@"Storage" style:UIBarButtonItemStylePlain target:self action:@selector(leftBtnTap:)];
     self.navigationItem.rightBarButtonItem = rightBtnItem;
+    [self initStory];
+}
+
+- (void)initStory {
+    self.story = [[DataService shareDataService].stories objectAtIndex:0];
+    self.lblTitle.text = [self.story objectForKey:@"title"];
+    self.lblTime.text = [NSString stringWithFormat:@"大约需要%@秒",[self.story objectForKey:@"times"]];
+    self.storyContentView.text = [self.story objectForKey:@"content"];
+
+
 }
 
 - (void)didReceiveMemoryWarning

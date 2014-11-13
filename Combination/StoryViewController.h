@@ -11,7 +11,9 @@
 #import "UIRoundedImageView.h"
 #import "CategoryView.h"
 
-@interface StoryViewController : BaseViewController<CategoryViewChooseDataDataSource,CategoryViewChooseDataDelegate>
+@interface StoryViewController : BaseViewController<CategoryViewChooseDataDataSource,CategoryViewChooseDataDelegate> {
+    NSMutableDictionary *story;
+}
 
 
 @property (weak, nonatomic) IBOutlet CategoryView *categoryView;
@@ -21,6 +23,8 @@
 @property (weak, nonatomic) IBOutlet UIRoundedImageView *userImgView;
 @property (weak, nonatomic) IBOutlet UIRoundedImageView *shareImgView;
 @property (weak, nonatomic) IBOutlet UIRoundedImageView *speakImgView;
+
+@property (nonatomic,retain) NSMutableDictionary *story;
 
 - (IBAction)clickRecordBtn:(id)sender;
 

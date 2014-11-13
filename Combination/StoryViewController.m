@@ -13,7 +13,7 @@
 #import "UIViewController+MMDrawerController.h"
 #import "ReflectionView.h"
 #import "RecordViewController.h"
-#import "DataService.h"
+//#import "DataService.h"
 
 @interface StoryViewController (){
     NSMutableArray *categoriesArr;
@@ -21,7 +21,10 @@
 
 @end
 
+
 @implementation StoryViewController
+
+@synthesize story;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -51,10 +54,10 @@
 
 - (void)initStoryData {
     NSString *plist = [Utils storyPlistPath];
-    NSLog(@"%@",plist);
     plist = [[NSBundle mainBundle] pathForResource:@"stories" ofType:@"plist"];
     NSMutableDictionary *data = [[NSMutableDictionary alloc] initWithContentsOfFile:plist];
-    NSLog(@"%@",[data objectForKey:@"stories"]);
+    [DataService shareDataService].stories = [data objectForKey:@"stories"];
+    self.story = [[DataService shareDataService].stories objectAtIndex:0];
 }
 
 - (void)setupOperationView {
@@ -78,13 +81,13 @@
     [storyView addSubview:flectionView];
     CGRect frame = CGRectMake(200, 330, 300, 50);
     UILabel *lblTitle = [[UILabel alloc] initWithFrame:frame];
-    lblTitle.text = @"标题拜托拜托拜托拜托拜托拜";
+    lblTitle.text = [self.story objectForKey:@"title"];
     lblTitle.font = [UIFont systemFontOfSize:20.0f];
     [storyView addSubview:lblTitle];
     frame.origin.x = 30;
     frame.size.width = 150;
     UILabel *lblTime = [[UILabel alloc] initWithFrame:frame];
-    lblTime.text = @"00:44/14:30";
+    lblTime.text = [NSString stringWithFormat:@"00:00 / %@", [Utils convertTime:[self.story objectForKey:@"times"]]];
     lblTime.font = [UIFont systemFontOfSize:24.0f];
     [storyView addSubview:lblTime];
     frame.origin.x = 450;
@@ -99,7 +102,7 @@
     UITextView *contentView = [[UITextView alloc] initWithFrame:CGRectMake(600, 0, 400, 410)];
     contentView.editable = NO;
     [contentView setBackgroundColor:[UIColor lightGrayColor]];
-    contentView.text = @"故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本故事文本";
+    contentView.text = [self.story objectForKey:@"content"];
     contentView.font = [UIFont systemFontOfSize:16.0f];
     [self.storyContentView addSubview:contentView];
 }
