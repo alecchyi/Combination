@@ -12,4 +12,5 @@
 
 + (NSString *) storyPlistPath;
 
++ (NSString *)convertTime:(NSString *)seconds;
 @end

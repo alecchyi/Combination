@@ -24,4 +24,21 @@
     return filePath;
 }
 
++ (NSString *)convertTime:(NSString *)seconds {
+    NSString *time;
+    
+    int min = [seconds integerValue] / 60;
+    int sec = [seconds integerValue] % 60;
+    NSString *minStr = @"";
+    NSString *secStr = @"";
+    if (min<10) {
+        minStr = [NSString stringWithFormat:@"0%d",min];
+    }
+    if (sec <10) {
+        secStr = [NSString stringWithFormat:@"0%d",sec];
+    }
+    time = [NSString stringWithFormat:@"%@:%@",minStr,secStr];
+    return time;
+}
+
 @end
